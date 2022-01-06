@@ -1,0 +1,3 @@
+csgo : VAC = UNDETECTED | GAMEGUARD = UNDETECTED | FACEIT = N/A
+dota 2 : VAC = UNDETECTED
+file last update : 23:05 (MSK) 05.01.22

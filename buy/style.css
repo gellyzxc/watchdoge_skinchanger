@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  background: #ff00cc;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+}
+
+nav {
+  background: transparent;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px;
+}
+
+nav div {
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.sign {
+  padding: 10px;
+  background: #ff00cc;
+}
+
+@media(min-width: 577px){
+  nav {
+    justify-content: flex-end;
+  }
+
+  nav div {
+    margin-right: 30px;
+    font-size: 1.3rem;
+  }
+}
+
+@media(min-width: 769px){
+  nav div {
+    margin-right: 80px;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+@media(min-width: 567px){
+  main {
+    margin-top: 15vh;
+  }
+}
+.start {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.start:hover {
+  background: #fff;
+  color: #ff00cc;
+  border-color: #ff00cc
+}
+
+.landing div {
+  margin-top: 5vh;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.landing p {
+  width: 95vw;
+  max-width: 600px;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+@media(min-width: 576px) {
+  .landing div {
+    margin-top: 7vh;
+    font-size: 2.5rem;
+  }
+}
+
+form {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+}
+
+.email {
+  margin-bottom: 2vh;
+}
+
+.submit {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: all 0.8s;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.submit:hover, .submit:focus {
+  background: #fff;
+  border-color: #ff00cc;
+  color: #ff00cc;
+}
+
+@media(min-width: 577px){
+  form {
+    margin: 10vh;
+    flex-direction: row;
+    width: 70vw;
+    max-width: 500px;
+  }
+  .email {
+    margin-bottom: 0;
+  }
+  .submit {
+    margin-left: 10px;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+}
