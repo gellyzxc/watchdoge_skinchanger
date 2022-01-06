@@ -26,7 +26,7 @@ define('DETECT_FILE', '/detects.txt'); // лежит в папке detections
 
 define('BUY_SUBTITLE', 'Оформить подписку на ' . SHORTNAME . '.');
 
-define('BUY_WRAP', ''); // виджет оплаты юмани
+define('BUY_WRAP', '<img src="https://c.tenor.com/orRFyeO0rFIAAAAC/admin-zxc.gif" width="683" height="683" alt="Admin Zxc GIF - Admin Zxc 1v1 GIFs" style="max-width: 683px;">'); // виджет оплаты юмани
 
 define('BUY_SUMMA', '150');
 
