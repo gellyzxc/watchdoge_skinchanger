@@ -2,7 +2,7 @@
 
 // хуета для настройки
 
-$url = 'http://212.120.180.185/';
+$url = 'http://ТУТ ДОМЕН ЗАСУНЬ ИЛИ ip/';
 
 define('NAME', 'WATCHDOGE SKINCHANGER');
 
