@@ -8,7 +8,7 @@ define('SHORTNAME', 'WATCHDOGE');
 
 define('VER', '1.44 - last release');
 
-define('SUBTITLE', 'Бесплатный скинченджер от разработчиков ExtremeHack. Подходит для игр "Dota 2" и "CS:GO". На данный момент ведется активная разработка и усовершенсвование продука. О статусе обнаружения можно узнать в соответсвующем блоке в шапке сайта.');
+define('SUBTITLE', 'Бесплатный скинченджер от <strong>gellyzxc</strong> и <strong>ajangu</strong>. Подходит для игр "Dota 2" и "CS:GO". На данный момент ведется активная разработка и усовершенсвование продука. О статусе обнаружения можно узнать в соответсвующем блоке в шапке сайта.');
 
 define('AUTHOR', 'site by gellyzxc • software by gellyzxc & ajangu');
 
