@@ -55,7 +55,7 @@ $dead = $_GET['buy'];
 
 if ($dead == 'true' and $_GET['id'] == $ip) {
 
-$link = mysqli_connect("NAXYI IDI", "PIDORAS", "XDD", "JEBANIY");
+$link = mysqli_connect("212.120.180.185:3306", "watchdogesite", "1CRGsI4NwtJknr[8", "watchdoge");
 
 $zalupa = 'INSERT INTO `codes` (`code`, `ip`) VALUES ("'.$password.'", "'.$ip.'")';
 $sql = mysqli_query($link, $zalupa);

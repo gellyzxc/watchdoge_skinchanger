@@ -4,7 +4,7 @@ $type = $_GET['type'];
 
 $ver = $_GET['ver'];
 
-$zxc = 'main';
+$zxc = 'watchdoge';
 
 if ($type == 'csgo') {
     $target = 'csgo'; }
